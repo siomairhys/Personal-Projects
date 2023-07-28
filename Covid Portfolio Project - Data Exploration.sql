@@ -10,6 +10,7 @@ From [Portfolio Project]..CovidDeaths
 Order by 1,2
 
 -- I just Altered the NVARCHAR columns to INT
+-- or use CAST
 
 Exec sp_help 'dbo.CovidDeaths';
 Alter table dbo.CovidDeaths
